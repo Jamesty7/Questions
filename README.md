@@ -6,14 +6,12 @@
   
 # How do you see the contents of what changed within each file from the git log?
   
-- We have three ways to do it
-  1.  Using git log.
-  2.  Using git show.
-  3.  Using git diff.
+- We can easely see all the changes with the git log --raw command.
   
+   
  #  What does HEAD refer to in the context of git? 
   
- - It shows you where you are located in the last update on your current branch.
+ - The HEAD in Git is the pointer to the current branch reference, which is in turn a pointer to the last commit you made or the last commit that was checked out into your working directory. That also means it will be the parent of the next commit you do.
   
   
 
